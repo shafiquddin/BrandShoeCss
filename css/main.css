@@ -45,11 +45,12 @@ nav ul {
   margin-top: 8rem;
 }
 nav ul a {
-  color: white;
+  color: black;
   padding: 0.75rem 2rem;
   display: block;
 }
 nav ul a:hover {
+  color: white;
   background-color: rgb(187, 153, 153);
 }
 nav .close {

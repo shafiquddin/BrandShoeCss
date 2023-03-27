@@ -41,11 +41,12 @@ nav {
     padding: 0;
     margin-top: 8rem;
     a {
-      color: white;
+      color: black;
       padding: 0.75rem 2rem;
       display: block;
 
       &:hover {
+        color: white;
         background-color: rgb(187, 153, 153);
       }
     }
@@ -143,7 +144,6 @@ section.hero {
       a {
         padding: 0.5em 1.5em;
         font-size: 0.9rem;
-
         &:hover {
           background: none;
           text-decoration: underline;
