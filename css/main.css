@@ -88,7 +88,7 @@ section.hero {
 section.hero .down-arrow {
   stroke: white;
   position: absolute;
-  bottom: 2em;
+  margin-bottom: 2em;
   width: 1em;
   animation: moveArrow 1s alternate-reverse infinite;
 }
@@ -185,13 +185,13 @@ section.hero .down-arrow path {
     text-align: right;
     width: 25em;
   }
-  .feature-left {
+  .feature.left {
     grid-template-areas: "left right";
   }
-  .feature-left img {
+  .feature.left img {
     grid-area: left;
   }
-  .feature-left .content {
+  .feature.left .content {
     text-align: left;
     width: 25em;
     justify-self: left;

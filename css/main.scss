@@ -87,7 +87,7 @@ section.hero {
   .down-arrow {
     stroke: white;
     position: absolute;
-    bottom: 2em;
+    margin-bottom: 2em;
     width: 1em;
     animation: moveArrow 1s alternate-reverse infinite;
     path {
@@ -172,7 +172,6 @@ section.hero {
     svg.down-arrow {
       stroke: black;
       position: unset;
-
       path {
         fill: black;
       }
@@ -195,7 +194,7 @@ section.hero {
     }
   }
 
-  .feature-left {
+  .feature.left {
     grid-template-areas: "left right";
 
     img {
